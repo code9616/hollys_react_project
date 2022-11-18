@@ -1,0 +1,153 @@
+* {
+    list-style: none;
+    text-decoration: none;
+}
+
+.wrap {
+    position: relative;
+    min-height: 100%;
+    overflow-x: hidden;
+}
+
+.header {
+    height: 148px;
+    min-width: 940px;
+    background: url(../public/img/headerline.gif) left bottom repeat-x;
+}
+
+.headerInner {
+    width: 940px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.headerInner h1 {
+    margin: 0 auto 0;
+    width: 133px;
+    padding: 7px 0 0;
+}
+
+.util {
+    display: flex;
+    overflow: hidden;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.util li {
+    float: left;
+    margin-right: 12px;
+    margin-top: 3px;
+    list-style: none;
+}
+
+.quickBanner {
+    display: flex;
+    overflow: hidden;
+    position: absolute;
+    top: -16px;
+    left: -27px;
+    list-style: none;
+}
+
+.quickBanner li:last-child {
+    line-height: 50px;
+}
+
+.main_Banner {
+    width: 940px;
+    height: 60px;
+    margin: 17px 0 0 -30px;
+    list-style: none;
+    overflow: hidden;
+}
+
+.dropdown_content {
+    display: none;
+    top: 146px;
+    width: 100%;
+    height: 279px;
+    z-index: 999;
+    position: absolute;
+    background: url(./images/dropdown_content.gif) left top repeat-x;
+}
+
+.dropdown_content:hover {}
+
+.dropdown:hover .dropdown_content {
+    display: block;
+}
+
+.dropdown_dep1 {
+    /* display: block; */
+    position: absolute;
+    width: 940px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 17px 0px 0px 0px;
+}
+
+.main_Banner_list li {
+    float: left;
+    width: 156px;
+    text-align: center;
+    height: 60px;
+    box-sizing: border-box;
+    line-height: 30px;
+}
+
+.main_Banner_list li:hover {
+    background-color: #ba0007;
+}
+
+.main_Banner_list li a {
+    /* display: block; */
+    padding: 5px 0 0 0;
+    /* width: 156px;
+    height: 36px; */
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.main_Banner_list li:hover,
+.main_Banner_list li a:hover {
+    color: white;
+}
+
+.main_Banner_list li span {
+    display: none;
+    top: 111px;
+    left: 108px;
+    font-size: 11px;
+    opacity: 1;
+}
+
+.main_Banner_list:hover li span {
+    display: block;
+}
+
+
+.menu_list {
+    float: left;
+    width: 156px;
+    padding: 0px 0px 0px 0px;
+    text-align: center;
+}
+
+.menu_list li {
+    margin-bottom: 0;
+    margin-top: 6px;
+    font-size: 13px;
+}
+
+.menu_list li a {
+    color: #808080;
+    font-weight: 100;
+}
+
+.menu_list li a:hover {
+    color: #ffffff;
+}

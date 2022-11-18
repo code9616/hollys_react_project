@@ -1,0 +1,53 @@
+.footer {
+    width: 100%;
+    min-width: 940px;
+    height: 115px;
+    padding: 33px 0 0 0;
+    background: #ba000c;
+    font-size: 11px;
+}
+
+.footerInner {
+    width: 940px;
+    margin: 0 auto;
+    line-height: 14px;
+    overflow: hidden;
+}
+
+.Inner {
+    float: left;
+}
+
+.Inner a {
+    background: url(../public/img/footer_line.gif) right 2px no-repeat;
+    padding: 0 8px 0 3px;
+    color: #faeff0;
+    text-decoration: none;
+    font-size: 11px;
+}
+
+.Inner a b {
+    font-size: 11px;
+}
+
+.Inner a:nth-child(8) {
+    background: none;
+    padding: 0 0 0 3px;
+}
+
+.address {
+    margin-top: 23px;
+    color: #de898e;
+    line-height: 16px;
+    word-spacing: -1px;
+    font-size: 11px;
+}
+
+
+.endline {
+    margin-top: 0px;
+    color: #de898e;
+    line-height: 16px;
+    word-spacing: -1px;
+    font-size: 11px;
+}
